@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cipher App</string>
+    <string name="edit_cipher">Input encrypted text</string>
+    <string name="button_submit">Send</string>
+</resources>
