@@ -4,7 +4,4 @@
     <library-updates>
       <library-update>
         <group-id>androidx.test.espresso</group-id>
-      </library-update>
-    </library-updates>
-  </component>
-</project>
+
