@@ -9,8 +9,10 @@ import android.widget.EditText;
 
 import java.io.IOException;
 
-public class MainActivity extends AppCompatActivity {
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
+public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.cipherapp.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
         String message = editText.getText().toString();
         Client client = new Client(message);
         client.startClient();
-        System.out.println("decoded = " + client.decodedText);
+        Intent displayDecoded = new Intent(this, DisplayMessageActivity.class);
+        displayDecoded.putExtra(EXTRA_MESSAGE, client.decodedText);
+        startActivity(displayDecoded);
     }
 
 }

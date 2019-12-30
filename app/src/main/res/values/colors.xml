@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="AvailableLibraryUpdateStorage">
-    <library-updates>
-      <library-update>
-        <group-id>androidx.test.espresso</group-id>
-
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#6B4A3E</color>
+    <color name="colorAccent">#FF000000</color>
+</resources>
