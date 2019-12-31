@@ -15,10 +15,10 @@ import java.util.concurrent.Executors;
 
 public class Client {
 
-	public InetAddress server;
-	public Socket socket = new Socket();
-	public String cipherText;
-	public String decodedText;
+    private InetAddress server;
+    private Socket socket;
+    private String cipherText;
+    private String decodedText;
 
 	public Client(String cipherText) {
 		this.cipherText = cipherText;
