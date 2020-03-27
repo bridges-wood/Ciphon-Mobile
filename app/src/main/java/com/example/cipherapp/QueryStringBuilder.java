@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Class that handles the construction of the query string in the request URL.
  */
-class ParameterStringBuilder {
+class QueryStringBuilder {
 
     /**
      * Constructs the query string.

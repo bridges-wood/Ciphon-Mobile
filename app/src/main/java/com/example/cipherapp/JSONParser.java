@@ -30,7 +30,7 @@ public class JSONParser {
         try {
             Map<String, String> parameters = new HashMap<>();
             parameters.put("cipher", cipherText);
-            String requestParams = ParameterStringBuilder.getParamsString(parameters);
+            String requestParams = QueryStringBuilder.getParamsString(parameters);
             URL url = new URL(address + "?" + requestParams);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET"); // Makes a get request.
