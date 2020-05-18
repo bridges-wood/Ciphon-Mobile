@@ -1,6 +1,6 @@
-# Cipher-App
+# Ciphon-Mobile
 
-An app to interface with my [API](https://github.com/bridges-wood/Cipherism) for classical cipher decryption.
+An app to interface with my [API](https://github.com/bridges-wood/Ciphon) for classical cipher decryption.
 
 ## Getting Started
 
